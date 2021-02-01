@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* This makes the background of the body white */
 body {
     background-color: #d9dcd6;
 }
-
+/* This makes the header have the blue background and gives the title the ability to have 2 different colors and highlighting three letters out of the title the greyish white color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This gives the Title on the page the size it has so it doesnt take up the whole top border*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* this gices the seo on the title the grayish color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This seperates the different sections of the page and moves them to the right side and style them to match the font of the rest of the page*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +31,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
-}
-
+/* This keeps the headings on the header stay on the right and not overlao the picture on the main page*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -45,11 +41,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* this keeps the font of the entire page in each paragraph tag at 16*/
 p {
     font-size: 16px;
 }
-
+/* this keeps all the images spaced out and positioned on the page so that they dont overlap and placement/style doesn't overlap*/
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +70,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Styles the sidebar so that it is positioned with the other sections of the page that hold the information about the company*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +129,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* this styles the different 3 sections on the page so it doesn't overlap each other and font maintains the same throughout the page */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +156,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* keeps the pictures in the different sections the same size so it fits inside the border*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,7 +183,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styles the header so the font, text and info all stay together and doesn't interfere and combine with the other sections*/
 .footer {
     padding: 30px;
     clear: both;
